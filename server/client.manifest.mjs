@@ -6,12 +6,12 @@ export default {
     "file": "GameLayout.Cb4CB-X-.css",
     "src": "_!~{00b}~.js"
   },
-  "_BLoQ8wbF.js": {
+  "_D89sPLU1.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BLoQ8wbF.js",
+    "file": "D89sPLU1.js",
     "name": "GameLayout",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -26,23 +26,23 @@ export default {
     "prefetch": true,
     "preload": true
   },
-  "_DCtdxTme.js": {
+  "_DA7MyXE6.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DCtdxTme.js",
+    "file": "DA7MyXE6.js",
     "name": "vue.f36acd1f",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_RoHKHZGk.js": {
+  "_DvDsN3Dg.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "RoHKHZGk.js",
+    "file": "DvDsN3Dg.js",
     "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
@@ -53,12 +53,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "2usqrGB8.js",
+    "file": "O5dsgSIC.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_RoHKHZGk.js",
+      "_DvDsN3Dg.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -74,13 +74,13 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BFSxAhxO.js",
+    "file": "CZ3BVsqh.js",
     "name": "error-404",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_RoHKHZGk.js",
-      "_DCtdxTme.js",
+      "_DvDsN3Dg.js",
+      "_DA7MyXE6.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -96,12 +96,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "ChwriRlE.js",
+    "file": "KbU9olgN.js",
     "name": "error-500",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_DCtdxTme.js",
+      "_DA7MyXE6.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -117,7 +117,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BW0PMtS9.js",
+    "file": "z_yElZYN.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -132,7 +132,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "C_SkAkcx.js",
+    "file": "C_Gk9CBh.js",
     "name": "about",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
@@ -145,7 +145,7 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "C95XeXas.js",
+    "file": "BNvEjb0w.js",
     "name": "contact",
     "src": "pages/contact.vue",
     "isDynamicEntry": true,
@@ -158,12 +158,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Dlcej3mT.js",
+    "file": "DRdcR7OO.js",
     "name": "game-page",
     "src": "pages/game-page.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BLoQ8wbF.js",
+      "_D89sPLU1.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -172,12 +172,12 @@ export default {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "yIEkH5oD.js",
+    "file": "De8IyVKY.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BLoQ8wbF.js",
+      "_D89sPLU1.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   }
