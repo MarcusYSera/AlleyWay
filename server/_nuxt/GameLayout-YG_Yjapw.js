@@ -1,20 +1,7 @@
 import { mergeProps, useSSRContext } from "vue";
-import { ssrRenderAttrs, ssrRenderStyle, ssrRenderList, ssrRenderClass, ssrRenderComponent } from "vue/server-renderer";
+import { ssrRenderAttrs, ssrRenderStyle, ssrRenderList, ssrRenderClass } from "vue/server-renderer";
 import { _ as _export_sfc } from "../server.mjs";
-import "ofetch";
-import "#internal/nuxt/paths";
-import "hookable";
-import "unctx";
-import "h3";
-import "unhead";
-import "@unhead/shared";
-import "vue-router";
-import "ufo";
-import "radix3";
-import "defu";
-import "klona";
-import "devalue";
-const _sfc_main$1 = {
+const _sfc_main = {
   name: "GameLayout",
   data() {
     return {
@@ -143,7 +130,7 @@ const _sfc_main$1 = {
     }
   }
 };
-function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${ssrRenderAttrs(mergeProps({
     id: "game-canvas",
     tabindex: "0"
@@ -157,33 +144,14 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
   });
   _push(`<!--]--></div>`);
 }
-const _sfc_setup$1 = _sfc_main$1.setup;
-_sfc_main$1.setup = (props, ctx) => {
-  const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/GameLayout.vue");
-  return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
-};
-const __nuxt_component_0 = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-c38e1aef"]]);
-const _sfc_main = {
-  name: "game-page",
-  components: {
-    GameLayout: __nuxt_component_0
-  }
-};
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_GameLayout = __nuxt_component_0;
-  _push(`<div${ssrRenderAttrs(_attrs)}>`);
-  _push(ssrRenderComponent(_component_GameLayout, null, null, _parent));
-  _push(`</div>`);
-}
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/game-page.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/GameLayout.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-const gamePage = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+const __nuxt_component_0 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__scopeId", "data-v-c38e1aef"]]);
 export {
-  gamePage as default
+  __nuxt_component_0 as _
 };
-//# sourceMappingURL=game-page-BUV3bIw5.js.map
+//# sourceMappingURL=GameLayout-YG_Yjapw.js.map

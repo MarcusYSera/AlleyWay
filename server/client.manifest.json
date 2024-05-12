@@ -1,22 +1,49 @@
 {
-  "_BEbOqTx1.js": {
+  "_!~{00b}~.js": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "GameLayout.Cb4CB-X-.css",
+    "src": "_!~{00b}~.js"
+  },
+  "_BLoQ8wbF.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BEbOqTx1.js",
-    "name": "nuxt-link",
+    "file": "BLoQ8wbF.js",
+    "name": "GameLayout",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "css": [
+      "GameLayout.Cb4CB-X-.css"
+    ]
+  },
+  "GameLayout.Cb4CB-X-.css": {
+    "file": "GameLayout.Cb4CB-X-.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "_DCtdxTme.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "DCtdxTme.js",
+    "name": "vue.f36acd1f",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_CYFr2naA.js": {
+  "_RoHKHZGk.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CYFr2naA.js",
-    "name": "vue.f36acd1f",
+    "file": "RoHKHZGk.js",
+    "name": "nuxt-link",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -26,12 +53,12 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DvfC1sOh.js",
+    "file": "2usqrGB8.js",
     "name": "default",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BEbOqTx1.js",
+      "_RoHKHZGk.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -47,13 +74,13 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BoUyCmb7.js",
+    "file": "BFSxAhxO.js",
     "name": "error-404",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_BEbOqTx1.js",
-      "_CYFr2naA.js",
+      "_RoHKHZGk.js",
+      "_DCtdxTme.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -69,12 +96,12 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D7NoAl0k.js",
+    "file": "ChwriRlE.js",
     "name": "error-500",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_CYFr2naA.js",
+      "_DCtdxTme.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "css": []
@@ -90,7 +117,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Bh_33OeD.js",
+    "file": "BW0PMtS9.js",
     "name": "entry",
     "src": "node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -105,7 +132,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BwdyWk_a.js",
+    "file": "C_SkAkcx.js",
     "name": "about",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
@@ -118,7 +145,7 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "z9TWAvqF.js",
+    "file": "C95XeXas.js",
     "name": "contact",
     "src": "pages/contact.vue",
     "isDynamicEntry": true,
@@ -131,33 +158,26 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BXQg5WxB.js",
+    "file": "Dlcej3mT.js",
     "name": "game-page",
     "src": "pages/game-page.vue",
     "isDynamicEntry": true,
     "imports": [
+      "_BLoQ8wbF.js",
       "node_modules/nuxt/dist/app/entry.js"
-    ],
-    "css": [
-      "game-page.Cb4CB-X-.css"
     ]
-  },
-  "game-page.Cb4CB-X-.css": {
-    "file": "game-page.Cb4CB-X-.css",
-    "resourceType": "style",
-    "prefetch": true,
-    "preload": true
   },
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B7I_dBOI.js",
+    "file": "yIEkH5oD.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
+      "_BLoQ8wbF.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   }

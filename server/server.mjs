@@ -561,7 +561,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect,
-    component: () => import("./_nuxt/game-page-BUV3bIw5.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/game-page-Cno0ItQ2.js").then((m) => m.default || m)
   },
   {
     name: "index",
@@ -569,7 +569,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect,
-    component: () => import("./_nuxt/index-BBUczPYL.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-CstKQMFC.js").then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
