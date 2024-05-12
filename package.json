@@ -2,7 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
-  "homepage": "https://MarcusYSera.github.io/AlleyWay",
+  "homepage": "https://marcusysera.github.io/AlleyWay/",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
