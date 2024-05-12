@@ -2,16 +2,25 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "homepage": "https://MarcusYSera.github.io/AlleyWay",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "npm run build && gh-pages -d .nuxt/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarcusYSera/AlleyWay.git"
   },
   "dependencies": {
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="content">
-      <p>© 2024 Your Website</p>
+      <p>© 2024</p>
       <nav>
         <ul>
           <li><nuxt-link to="/">Home</nuxt-link></li>
