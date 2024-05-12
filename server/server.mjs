@@ -893,7 +893,7 @@ const plugins = [
   components_plugin_KR1HBZs4kY
 ];
 const layouts = {
-  default: () => import("./_nuxt/default-CKO9Bv1g.js").then((m) => m.default || m)
+  default: () => import("./_nuxt/default-Ca-ZbWSu.js").then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",

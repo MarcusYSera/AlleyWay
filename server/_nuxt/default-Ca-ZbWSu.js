@@ -213,7 +213,7 @@ const _sfc_main$1 = {
 };
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_nuxt_link = __nuxt_component_0$1;
-  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "footer" }, _attrs))} data-v-0016a1bd><div class="content" data-v-0016a1bd><p data-v-0016a1bd>© 2024 Your Website</p><nav data-v-0016a1bd><ul data-v-0016a1bd><li data-v-0016a1bd>`);
+  _push(`<footer${ssrRenderAttrs(mergeProps({ class: "footer" }, _attrs))} data-v-a14492e6><div class="content" data-v-a14492e6><p data-v-a14492e6>© 2024</p><nav data-v-a14492e6><ul data-v-a14492e6><li data-v-a14492e6>`);
   _push(ssrRenderComponent(_component_nuxt_link, { to: "/" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -226,7 +226,7 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
     }),
     _: 1
   }, _parent));
-  _push(`</li><li data-v-0016a1bd>`);
+  _push(`</li><li data-v-a14492e6>`);
   _push(ssrRenderComponent(_component_nuxt_link, { to: "/about" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -239,7 +239,7 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs, $props, $setup, $data, $
     }),
     _: 1
   }, _parent));
-  _push(`</li><li data-v-0016a1bd>`);
+  _push(`</li><li data-v-a14492e6>`);
   _push(ssrRenderComponent(_component_nuxt_link, { to: "/contact" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -260,7 +260,7 @@ _sfc_main$1.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Footer.vue");
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
-const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-0016a1bd"]]);
+const __nuxt_component_2 = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-a14492e6"]]);
 const _sfc_main = defineComponent({
   layout: "default",
   components: {
@@ -289,4 +289,4 @@ const _default = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrR
 export {
   _default as default
 };
-//# sourceMappingURL=default-CKO9Bv1g.js.map
+//# sourceMappingURL=default-Ca-ZbWSu.js.map
