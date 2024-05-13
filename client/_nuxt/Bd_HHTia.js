@@ -1,0 +1,1 @@
+import{_ as e}from"./C5PR9jHq.js";import{_ as t,c as a,b as n,o as c}from"./DzK__91B.js";const s={name:"game-page",components:{GameLayout:e}};function _(r,m,p,u,f,d){const o=e;return c(),a("div",null,[n(o)])}const g=t(s,[["render",_]]);export{g as default};
