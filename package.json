@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "npm run build && gh-pages -d .nuxt/dist"
+    "deploy": "nuxt generate && gh-pages -d .output/public"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
+    "@nuxt/typescript-build": "^3.0.2",
     "gh-pages": "^6.1.1"
   }
 }
